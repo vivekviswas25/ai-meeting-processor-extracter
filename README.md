@@ -6,9 +6,13 @@ A Node.js backend service that accepts meeting notes (via API) - Calls an AI API
 1. Clone repo and enter folder:
 git clone (https://github.com/vivekviswas25/ai-meeting-processor-extracter.git)
 2. set directory
+
 cd meeting-notes-ai
+
 3. Install dependencies:
+
 npm install
+
 4. Create .env file with:
 
 GEMINI_API_KEY=your_gemini_api_key_here
@@ -28,7 +32,8 @@ Test
 Send meeting notes as raw text:
 
 --curl -X POST http://localhost:3001/process-meeting -H "Content-Type: text/plain" -d "Your meeting notes here"
-Or upload a .txt file:
+
+Or upload a {.txt} file:
 
 --curl -X POST http://localhost:3001/process-meeting -F "file=@test-notes/sample1.txt"
 
