@@ -10,8 +10,11 @@ cd meeting-notes-ai
 3. Install dependencies:
 npm install
 4. Create .env file with:
+
 GEMINI_API_KEY=your_gemini_api_key_here
+
 PORT=3001
+
 5. Run the app
 6. Terminal
 set directory
@@ -33,8 +36,10 @@ Or upload a .txt file:
 --Output
 Returns JSON with summary, decisions, and action items.
 
+![image](https://github.com/user-attachments/assets/443065ee-8bb1-4603-a82c-a5cac38af4f5)
+
 
 
 Notes
-Ensure your Gemini API key is valid.
-Run curl commands from project root for file paths to work.
+1. Ensure your Gemini API key is valid.
+2. Run curl commands from project root for file paths to work.
