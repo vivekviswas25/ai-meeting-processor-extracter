@@ -4,7 +4,7 @@ A Node.js backend service that accepts meeting notes (via API) - Calls an AI API
 
 **Setup**
 1. Clone repo and enter folder:
-git clone https://github.com/vengadesh-max/AI-Powered-Meeting-Minutes-Extractor.git
+git clone (https://github.com/vivekviswas25/ai-meeting-processor-extracter.git)
 2. set directory
 cd meeting-notes-ai
 3. Install dependencies:
